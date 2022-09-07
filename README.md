@@ -5,6 +5,14 @@ A generator is a function which can stop the code execution at any arbitrary poi
 
 <i>Note: Any function which has atleast one `yield` keyword becomes a generator.</i>
 
+## What is yield keyword in python?
+It is used to return from the function without destroying the state of local variable. However, a `return` keyword, returns the value and stops the further execution of the function body. 
+
+## Why to use generators in python?
+1. <b>Easy to implement</b> compared to making a iterator from scratch.
+2. <b>Memory efficient</b> as generator doesn't create a sequence in memory all at once, instead it produced one output at a time.
+3. <b>Infinite Sequence</b> can not be stored in memory all at once, that's where generators come into the picture.
+
 ### Generator as a function
 Fetching the values of generator by treating it as a iterable function.
 
